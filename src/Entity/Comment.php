@@ -104,7 +104,7 @@ class Comment
     /**
      * @ORM\PrePersist()
      */
-    public function setCratedAtValue()
+    public function setCreatedAtValue()
     {
         $this->createdAt = new \DateTime();
     }
